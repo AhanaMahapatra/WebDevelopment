@@ -36,14 +36,14 @@ Cascading Style Sheet.
 - External: `<link href="style.css"/>`
 
 Inline: Useful for applying styles to one page, tedious if you have multiple sites, not recommended.  
-```
+```html
 <html style="background:blue">
   ...
 </html>
 ```
 
 Internal: Applying to one document, not recommended for multiple sites.  
-```
+```html
 <html>
   <head>
     <style>
@@ -56,7 +56,7 @@ Internal: Applying to one document, not recommended for multiple sites.
 ```  
 
 External: Useful for multiple sites, and has its own separate file.  
-```
+```html
 <html>
   <head>
     <link 
