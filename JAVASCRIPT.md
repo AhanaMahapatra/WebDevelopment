@@ -9,3 +9,6 @@ String, number, boolean
 `var myName="Angela";` <- stores the string in the new variable  
 `myName="jane";` <- replaces the value in the variable  
 `console.log();` <- prints in terminal / console  
+
+`Math.random();`  
+`Math.round();`
