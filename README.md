@@ -29,3 +29,41 @@ it is also a void element because it doesn't have a closing tag
 
 ## CSS
 Cascading Style Sheet.  
+
+3 ways to apply css:  
+- Internal: `<style>css</style>`
+- Inline: `<tag style="css" />`
+- External: `<link href="style.css"/>`
+
+Inline: Useful for applying styles to one page, tedious if you have multiple sites, not recommended.  
+```
+<html style="background:blue">
+  ...
+</html>
+```
+
+Internal: Applying to one document, not recommended for multiple sites.  
+```
+<html>
+  <head>
+    <style>
+      html {
+        background  =red;
+      }
+    </style>
+  </head>
+</html>
+```  
+
+External: Useful for multiple sites, and has its own separate file.  
+```
+<html>
+  <head>
+    <link 
+      rel = "stylesheet"
+      href = "./styles.css"
+      />
+  </head>
+</html>
+```
+
