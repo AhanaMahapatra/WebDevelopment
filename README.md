@@ -72,3 +72,25 @@ html {
   background : green;
 }
 ```
+
+Here, `h1` is the css selector. and every `h1` element will follow the same style.  
+```css
+h1 {
+  color: blue;
+}
+```
+
+Class selector, here we can add this class to group similar elements so all elements follow the same rule.  
+```css
+.red-text {
+  color: red;
+}
+```
+
+```html
+<h2 class="red-text">Red</h2>
+<h2>Blue</h2>
+<h2>Green</h2>
+<p class="red-text">Paragraph</p>
+```  
+
