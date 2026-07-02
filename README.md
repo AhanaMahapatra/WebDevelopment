@@ -130,3 +130,8 @@ background-color
 color  
 `colorhunt.co` for colour palletes  
 
+*font-properties*  
+font-weight  
+font-family  
+typeface, generic typeface  
+text-align  
