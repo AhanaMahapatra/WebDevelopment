@@ -67,7 +67,7 @@ External: Useful for multiple sites, and has its own separate file.
 </html>
 ```
 css file:  
-```
+```css
 html {
   background : green;
 }
