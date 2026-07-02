@@ -135,3 +135,19 @@ font-weight
 font-family  
 typeface, generic typeface  
 text-align  
+
+*border*  
+size, type of border, color  
+`border: 10px solid black;`  
+`  border-top: 0px;`  
+the specific border modifications should be specified after normal border.  
+
+*padding*  
+pushes border by specified size, it is inside the border  
+
+*margin*  
+spacing outside the border, helpful to maintain spacing between multiple objects  
+
+all these border, padding and margin has 4 values, top, bottom, left, and right.  
+
+`<div></div>` <- invisible block which are used to separate content.  
