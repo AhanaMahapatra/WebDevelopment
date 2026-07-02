@@ -124,3 +124,9 @@ universal selector, selects all.
   color: red;
 }
 ```
+
+*properties*  
+background-color  
+color  
+`colorhunt.co` for colour palletes  
+
