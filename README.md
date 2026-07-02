@@ -80,7 +80,7 @@ h1 {
 }
 ```
 
-Class selector, here we can add this class to group similar elements so all elements follow the same rule.  
+Class selector, here we can add this class to group similar elements so all elements follow the same rule. We use the `.` followed by the class name to apply it.  
 ```css
 .red-text {
   color: red;
@@ -94,3 +94,26 @@ Class selector, here we can add this class to group similar elements so all elem
 <p class="red-text">Paragraph</p>
 ```  
 
+ID selector, applied to only one element which has that id. Only 1 id per document.  
+```css
+#main {
+  color: red;
+}
+```  
+
+```html
+<h2 id="main"> Main </h2>
+<h2> random </h2>
+```
+
+Attribute selector, it selects all the html element `p` with the attribute `draggable` and apply the style to them.  
+```css
+p[draggable]{
+  color: red;
+}
+```
+
+```html
+<p draggable="true"> Drag this </p>
+<p> Do not drag this </p>
+```
