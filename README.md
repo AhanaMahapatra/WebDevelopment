@@ -108,12 +108,19 @@ ID selector, applied to only one element which has that id. Only 1 id per docume
 
 Attribute selector, it selects all the html element `p` with the attribute `draggable` and apply the style to them.  
 ```css
-p[draggable]{
+p[draggable="true"]{
   color: red;
 }
 ```
 
 ```html
 <p draggable="true"> Drag this </p>
-<p> Do not drag this </p>
+<p draggable="false"> Do not drag this </p>
+```
+
+universal selector, selects all.  
+```css
+* {
+  color: red;
+}
 ```
