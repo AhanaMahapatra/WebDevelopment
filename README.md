@@ -152,6 +152,7 @@ all these border, padding and margin has 4 values, top, bottom, left, and right.
 
 `<div></div>` <- invisible block which are used to separate content.  
 
+## DOM
 *inline javascript*  
 `<body onload="alert('Hello')">...</body>` <- to utilize javascript with html  
 
@@ -164,3 +165,6 @@ all these border, padding and margin has 4 values, top, bottom, left, and right.
 
 *external javascript*  
 `<script src="index.js" charset="utf-8"></script>` <- mostly used and very easy to implement. Best practice to put this just before body closing tag.  
+
+`document.firstElementChild.lastElementChild;` <- these help target objects in an html file, and can be manipulated to change their properties from the console itself.  
+`target.innerHTML = "changed value";` <- to do DOM manipulation
