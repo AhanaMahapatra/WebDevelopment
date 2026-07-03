@@ -151,3 +151,16 @@ spacing outside the border, helpful to maintain spacing between multiple objects
 all these border, padding and margin has 4 values, top, bottom, left, and right.  
 
 `<div></div>` <- invisible block which are used to separate content.  
+
+*inline javascript*  
+`<body onload="alert('Hello')">...</body>` <- to utilize javascript with html  
+
+*internal javascrip*  
+```
+<script type="text/javascript">
+  alert("Hello");
+</script>
+```
+
+*external javascript*  
+`<script src="index.js" charset="utf-8"></script>` <- mostly used and very easy to implement  
