@@ -163,4 +163,4 @@ all these border, padding and margin has 4 values, top, bottom, left, and right.
 ```
 
 *external javascript*  
-`<script src="index.js" charset="utf-8"></script>` <- mostly used and very easy to implement  
+`<script src="index.js" charset="utf-8"></script>` <- mostly used and very easy to implement. Best practice to put this just before body closing tag.  
