@@ -191,3 +191,5 @@ String, number, boolean
 `document.getElementById("main");` <- returns the element with `main` as id  
 `document.querySelector(#id)` <- `#id` for selecting id, `.class` for selecting class, `li a` to select list element with anchor tag, `li.item` then only the 1st item is returned back when there are multiple candidates  
 `document.querySelectorAll(#list .item);` <- then it returns an array for all the candidates who match this query  
+`document.querySelector().classList.add("anotherClass");` <- `classList` to show classes of selected element, `add()` to add another class to the selected element, `.remove()` to remove class, and `.toggle()` to toggle it on and off. Useful to apply css properties using js.  
+`document.querySelector().attribute` <- to see all the targetted element's attribute, `getAttribute()` to see the value of that attribute, `setAttribute()` to apply the value to targetted attribute  
