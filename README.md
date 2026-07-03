@@ -187,3 +187,7 @@ String, number, boolean
 
 `document.firstElementChild.lastElementChild;` <- these help target objects in an html file, and can be manipulated to change their properties from the console itself.  
 `target.innerHTML = "changed value";` <- to do DOM manipulation
+`document.getElementsByTagName("li")` <- returns an array with all the `li` elements  
+`document.getElementById("main");` <- returns the element with `main` as id  
+`document.querySelector(#id)` <- `#id` for selecting id, `.class` for selecting class, `li a` to select list element with anchor tag, `li.item` then only the 1st item is returned back when there are multiple candidates  
+`document.querySelectorAll(#list .item);` <- then it returns an array for all the candidates who match this query  
