@@ -176,7 +176,7 @@ String, number, boolean
 `<body onload="alert('Hello')">...</body>` <- to utilize javascript with html  
 
 *internal javascrip*  
-```
+```html
 <script type="text/javascript">
   alert("Hello");
 </script>
