@@ -12,3 +12,6 @@ String, number, boolean
 
 `Math.random();`  
 `Math.round();`
+
+`array.push()` <- insert values in array  
+`array.pop()` <- output values in array  
