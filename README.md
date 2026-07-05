@@ -202,7 +202,7 @@ String, number, boolean
 `.load` <-  to load js from a file into the REPL session  
 `.save` <- Save all evaluated commands in this REPL session to a file  
 
-[documentation]('https://nodejs.org/docs/latest-v18.x/api/fs.html#fsreadfilepath-options-callback') <- Useful for future command uses  
+[node documentation]('https://nodejs.org/docs/latest-v18.x/api/fs.html#fsreadfilepath-options-callback') <- Useful for future command uses  
 
 To create/write into a file:  
 ```js
@@ -225,3 +225,4 @@ For NPM:
 import randomSuperhero from "superheroes";
 const name = randomSuperhero();
 ```
+[npm documentation]("https://www.npmjs.com")  
