@@ -201,3 +201,27 @@ String, number, boolean
 `.exit` or `ctrl+d` <- to exit REPL  
 `.load` <-  to load js from a file into the REPL session  
 `.save` <- Save all evaluated commands in this REPL session to a file  
+
+[documentation]('https://nodejs.org/docs/latest-v18.x/api/fs.html#fsreadfilepath-options-callback') <- Useful for future command uses  
+
+To create/write into a file:  
+```js
+fs.writeFile("message.txt", "Hello", (err) => {
+  if (err) throw err;
+  console.log("Ran successfully");
+});
+```
+
+To read a file in string/utf8:  
+```js
+fs.readFile("message.txt","utf8", (err,data) => {
+  if (err) throw err;
+  console.log(data);
+});
+```
+
+For NPM:  
+```
+import { randomSuperhero } from "superheroes";
+const name = randomSuperhero();
+```
