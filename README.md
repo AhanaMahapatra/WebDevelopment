@@ -222,6 +222,6 @@ fs.readFile("message.txt","utf8", (err,data) => {
 
 For NPM:  
 ```js
-import { randomSuperhero } from "superheroes";
+import randomSuperhero from "superheroes";
 const name = randomSuperhero();
 ```
