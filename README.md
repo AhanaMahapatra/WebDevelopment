@@ -193,3 +193,11 @@ String, number, boolean
 `document.querySelectorAll(#list .item);` <- then it returns an array for all the candidates who match this query  
 `document.querySelector().classList.add("anotherClass");` <- `classList` to show classes of selected element, `add()` to add another class to the selected element, `.remove()` to remove class, and `.toggle()` to toggle it on and off. Useful to apply css properties using js.  
 `document.querySelector().attribute` <- to see all the targetted element's attribute, `getAttribute()` to see the value of that attribute, `setAttribute()` to apply the value to targetted attribute  
+
+## Node.js
+`node` <- in terminal to start the REPL  
+`.help` <- for commands  
+`.clear` or `ctrl+c` <- to abort current expression  
+`.exit` or `ctrl+d` <- to exit REPL  
+`.load` <-  to load js from a file into the REPL session  
+`.save` <- Save all evaluated commands in this REPL session to a file  
